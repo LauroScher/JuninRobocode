@@ -10,9 +10,9 @@ public class Junin extends Robot{
         //funções locomotivas em loop: 
         while (true) { 
           for (int DRight=0; DRight < 3; DRight++){
-                turnRadarRight(360); //giro do radar em graus
+                turnRadarRight(90); //giro do radar em graus
                 ahead(100); // andar 
-                turnGunRight(360); //giro do tiro em graus
+                turnGunRight(90); //giro do tiro em graus
                 back(100); // ré
            }	
           for (int DLeft=0; DLeft < 3; DLeft--){
